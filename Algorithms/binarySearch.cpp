@@ -1,4 +1,4 @@
-// Author : rs258
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
@@ -10,7 +10,7 @@ ll binarySearch(vll a,ll low, ll high, ll x) {
         return -1;
     }
     if(a[mid] == x) {
-        return mid;
+        return mid; 
     } 
 
     if(a[mid] > x) {
